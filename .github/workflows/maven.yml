@@ -28,7 +28,7 @@ jobs:
       run: ls -R
     
     - name: Build with Maven
-      run: cd Code && mvn -B clean install
+      run: mvn -B clean install --file ./Code/pom.xml
     
     
 
